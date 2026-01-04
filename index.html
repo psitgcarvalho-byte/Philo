@@ -3,189 +3,103 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Caderno de Ideias — Filosofia, Psicologia e Neuropsicologia</title>
-  <meta name="description" content="Um espaço contínuo de publicações em filosofia, psicologia e neuropsicologia. Elegante, organizado e sem pastas, pronto para GitHub e Render." />
-  <meta property="og:title" content="Caderno de Ideias" />
-  <meta property="og:description" content="Ensaios e artigos em um design sofisticado com foco em conteúdo e leitura." />
-  <meta property="og:type" content="website" />
-  <!-- Favicons: simples SVG embutido -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect x='8' y='8' width='48' height='48' rx='12' fill='%23ffffff'/%3E%3Cpath d='M24 32h16M32 24v16' stroke='%23945f2f' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <meta name="color-scheme" content="dark" />
+  <title>Thiago Carvalho de Souza — Portfólio Profissional</title>
+  <meta name="description" content="Portfólio do psicólogo clínico e neuropsicólogo Thiago Carvalho de Souza. Apresentação de sua atuação clínica, avaliações neuropsicológicas, produções intelectuais e currículo." />
+  <meta property="og:title" content="Thiago Carvalho de Souza — Portfólio Profissional" />
+  <meta property="og:description" content="Conheça o trabalho de Thiago Carvalho de Souza, psicólogo clínico e neuropsicólogo. Apresentação, atuação clínica, avaliações neuropsicológicas, publicações e currículo." />
   <link rel="stylesheet" href="./styles.css" />
+  <!-- Use uma pequena imagem SVG como ícone. Substitua pelo seu próprio favicon se desejar. -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CradialGradient id='g' cx='30%25' cy='30%25'%3E%3Cstop offset='0%25' stop-color='%23e0c58f'/%3E%3Cstop offset='35%25' stop-color='%23c9a46a' stop-opacity='.65'/%3E%3Cstop offset='70%25' stop-color='%238aa2ff' stop-opacity='.35'/%3E%3Cstop offset='100%25' stop-color='%23ffffff' stop-opacity='.08'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect x='6' y='6' width='52' height='52' rx='18' fill='url(%23g)' stroke='rgba(255,255,255,.16)'/%3E%3Cpath d='M20 40c6-12 18-12 24 0' fill='none' stroke='rgba(255,255,255,.8)' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M24 26h16' stroke='rgba(255,255,255,.55)' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
 </head>
-<body>
-  <a class="skip" href="#inicio">Pular para conteúdo</a>
 
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Barra superior com navegação principal -->
   <header class="topbar">
     <div class="wrap topbar__inner">
-      <a class="brand" href="#inicio" data-nav>
+      <a class="brand" href="#apresentacao" data-nav>
         <span class="brand__mark" aria-hidden="true"></span>
         <span class="brand__text">
-          <strong>Caderno de Ideias</strong>
-          <em>Filosofia · Psicologia · Neuropsicologia</em>
+          <strong>Thiago Carvalho de Souza</strong>
+          <em>Psicólogo Clínico &amp; Neuropsicólogo</em>
         </span>
       </a>
       <nav class="nav" aria-label="Navegação principal">
-        <a class="nav__link is-active" href="#inicio" data-nav>Início</a>
-        <a class="nav__link" href="#filosofia" data-nav>Filosofia</a>
-        <a class="nav__link" href="#psicologia" data-nav>Psicologia</a>
+        <a class="nav__link is-active" href="#apresentacao" data-nav>Apresentação</a>
+        <a class="nav__link" href="#clinica" data-nav>Atuação Clínica</a>
         <a class="nav__link" href="#neuro" data-nav>Neuropsicologia</a>
-        <a class="nav__link" href="#sobre" data-nav>Sobre</a>
+        <a class="nav__link" href="#publicacoes" data-nav>Publicações</a>
+        <a class="nav__link" href="#curriculo" data-nav>Currículo</a>
         <a class="nav__link" href="#contato" data-nav>Contato</a>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
-    <!-- Seção hero / introdutória -->
-    <section id="inicio" class="section hero">
+    <!-- Seção Apresentação / Hero -->
+    <section id="apresentacao" class="hero section">
       <div class="wrap hero__grid">
+        <!-- Texto de apresentação -->
         <div class="panel hero__panel">
-          <div class="kicker"><i></i>Publicação Elegante</div>
-          <h1>Rigor e Sofisticação para Ideias Profundas</h1>
+          <div class="kicker"><i></i>Portfólio profissional</div>
+          <h1>Psicologia, Neuropsicologia e Reflexão Filosófica</h1>
           <p class="lead">
-            Este espaço reúne textos sobre ética, linguagem, cognição e clínica em um formato profissional e sem pastas. Construído para convivência com GitHub e Render, mantendo tudo organizado na raiz.
+            Sou psicólogo clínico e neuropsicólogo (CRP 05/63586) com formação existencial‑humanista. Integro escuta sensível,
+            rigor científico e reflexão filosófica para promover saúde mental, avaliar o funcionamento cognitivo e apoiar a
+            construção de sentido no atendimento a adultos, crianças e famílias.
           </p>
           <div class="actions">
-            <a class="btn btn--primary" href="#filosofia" data-nav>Explorar Filosofia</a>
-            <a class="btn" href="#psicologia" data-nav>Explorar Psicologia</a>
-            <a class="btn" href="#neuro" data-nav>Explorar Neuro</a>
+            <a class="btn btn--primary" href="#contato" data-nav>Entrar em contato</a>
+            <a class="btn" href="#curriculo" data-nav>Ver currículo</a>
           </div>
-          <p class="note">Dica: edite este <code>index.html</code> para alterar textos. GitHub lerá todos os arquivos na raiz.</p>
+          <div class="note">
+            Este portfólio resume meu trabalho clínico, minhas avaliações neuropsicológicas e minhas publicações. Todos os
+            arquivos permanecem na raiz para facilitar versionamento no GitHub e publicação no Render.
+          </div>
         </div>
-        <aside class="stack">
-          <div class="card">
-            <div class="card__label">Editorial</div>
-            <div class="card__value">Foco no argumento</div>
-            <p class="card__hint">Clareza conceitual e compromisso com o debate.</p>
-          </div>
-          <div class="card">
-            <div class="card__label">Forma</div>
-            <div class="card__value">Ensaios & Artigos</div>
-            <p class="card__hint">Texto fluido com referências cruzadas e detalhes escondidos.</p>
-          </div>
-          <div class="card">
-            <div class="card__label">Áreas</div>
-            <div class="card__value">Filosofia · Psicologia · Neuropsicologia</div>
-            <p class="card__hint">Epistemologia, clínica, cognição, valores e cultura.</p>
-          </div>
+        <!-- Foto profissional -->
+        <aside class="hero__photo">
+          <img src="./perfil.jpg" alt="Foto de Thiago Carvalho de Souza" />
         </aside>
       </div>
     </section>
 
-    <!-- Seção Filosofia -->
-    <section id="filosofia" class="section">
+    <!-- Seção Atuação Clínica -->
+    <section id="clinica" class="section">
       <div class="wrap">
         <header class="section__head">
-          <h2>Filosofia</h2>
+          <h2>Atuação Clínica</h2>
           <div class="section__tools">
-            <button class="chip" type="button" data-copy-section="#filosofia">Copiar link</button>
-            <a class="chip" href="#inicio" data-nav>Topo</a>
+            <button class="chip" type="button" data-copy-section="#clinica">Copiar link</button>
+            <a class="chip" href="#apresentacao" data-nav>Topo</a>
           </div>
         </header>
-        <div class="grid">
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Filosofia</span>
-              <span class="tag">Ética</span>
-              <time datetime="2026-01-04" class="time">04 jan 2026</time>
-            </div>
-            <h3>Entre Verdade e Falsidade: a Ética do Discurso</h3>
+        <div class="panel">
+          <div class="prose">
             <p>
-              Um exame de como as noções de verdade e aparência moldam o debate moral. Quando a retórica substitui a consistência conceitual?
+              Trabalho com uma abordagem <strong>existencial‑humanista</strong> centrada na singularidade de cada pessoa. A clínica é espaço de escuta
+              cuidadosa e acolhimento das experiências emocionais, onde dialogamos sobre gestos, palavras e comportamentos para
+              compreender os bloqueios ao desenvolvimento e expandir a vitalidade. O foco não é encaixar o sujeito numa categoria
+              diagnóstica, mas construir <em>sentido</em> a partir das crises que o atravessam.
             </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  A filosofia moral opera entre o ideal de verdade e a necessidade prática de convivência. Mas há momentos em que aquilo que pretendemos como "verdade" funciona apenas como uma etiqueta: a retórica ocupa o lugar da justificação, e a aparência de coerência substitui a coerência real.
-                </p>
-                <p>
-                  Este ensaio investiga como a linguagem moral se sedimenta em discursos que legitimam exclusões, legitimidades e hierarquias. Ao examinar exemplos históricos, argumentamos que a ética bem fundamentada resiste à manipulação e exige transparência no processo argumentativo.
-                </p>
-              </div>
-            </details>
-          </article>
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Filosofia</span>
-              <span class="tag">Linguagem</span>
-              <time datetime="2025-12-28" class="time">28 dez 2025</time>
-            </div>
-            <h3>O Conceito como Ferramenta: elasticidade e rigidez</h3>
             <p>
-              Termos filosóficos amadurecem e se congelam. Por que precisamos manter os conceitos flexíveis e quais os riscos da rigidez terminológica?
+              Minha experiência clínica inclui atendimentos a adolescentes, adultos e idosos, com ênfase em temas como:
             </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  O movimento do conceito atravessa gerações: nasce como aproximação, ganha força ao condensar experiências e eventualmente endurece. A rigidez conceitual facilita a reprodução de ideias, mas compromete a criatividade crítica.
-                </p>
-                <p>
-                  O ensaio explora maneiras de manter a elasticidade conceitual sem abandonar a precisão, discutindo exemplos de termos filosóficos que se tornaram identidades rígidas e propondo estratégias para revitalizar seu uso.
-                </p>
-              </div>
-            </details>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Seção Psicologia -->
-    <section id="psicologia" class="section">
-      <div class="wrap">
-        <header class="section__head">
-          <h2>Psicologia</h2>
-          <div class="section__tools">
-            <button class="chip" type="button" data-copy-section="#psicologia">Copiar link</button>
-            <a class="chip" href="#inicio" data-nav>Topo</a>
+            <ul>
+              <li>Crises existenciais e identidade (“quem sou?”)</li>
+              <li>Ansiedade, fobia social e pânico</li>
+              <li>Depressão e sensação de vazio</li>
+              <li>Relacionamentos abusivos, narcisismo e maquiavelismo</li>
+              <li>Autoestima, tomada de decisão e projeto de vida (“o que fazer?”)</li>
+            </ul>
+            <p>
+              Cada atendimento é único: adaptamos recursos terapêuticos ao seu contexto e às suas necessidades, dialogando com a
+              família ou rede de apoio quando necessário. O objetivo é construir, juntos, novas narrativas de vida e ampliar o
+              horizonte de possibilidades.
+            </p>
           </div>
-        </header>
-        <div class="grid">
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Psicologia</span>
-              <span class="tag">Cognição</span>
-              <time datetime="2025-12-18" class="time">18 dez 2025</time>
-            </div>
-            <h3>Decidir ou Ser Decidido: hábitos e justificações</h3>
-            <p>
-              Entre emoções e hábitos, há espaço para a vontade? O texto analisa a natureza da decisão como interrupção de fluxo e a narrativa como justificativa posterior.
-            </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  A decisão, longe de ser um ato isolado de vontade, acontece frequentemente como interrupção de uma tendência automática ou emocional. O momento deliberativo se instala quando algo rompe o curso previsto, exigindo consideração e seleção.
-                </p>
-                <p>
-                  Entretanto, a justificativa que apresentamos para nossas escolhas costuma chegar depois, como história que busca coerência. Reconhecer esse descompasso ajuda a compreender melhor a relação entre intenção, ação e interpretação.
-                </p>
-              </div>
-            </details>
-          </article>
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Psicologia</span>
-              <span class="tag">Emoção</span>
-              <time datetime="2025-11-30" class="time">30 nov 2025</time>
-            </div>
-            <h3>Afetos e Narrativas: construindo sentido</h3>
-            <p>
-              Como as emoções estruturam a narrativa pessoal? Uma reflexão sobre memórias, sentimentos e o papel da linguagem na consolidação de identidades.
-            </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  A memória não é apenas repositório de fatos, mas construção contínua de histórias permeadas por emoções. O que sentimos ao lembrar influencia a forma como contamos e recontamos eventos, afetando nossa identidade.
-                </p>
-                <p>
-                  Este artigo discute como diferentes experiências emocionais moldam narrativas e como a linguagem serve tanto para organizar quanto para renovar significados, tornando visíveis aspectos antes inexplorados.
-                </p>
-              </div>
-            </details>
-          </article>
         </div>
       </div>
     </section>
@@ -194,95 +108,234 @@
     <section id="neuro" class="section">
       <div class="wrap">
         <header class="section__head">
-          <h2>Neuropsicologia</h2>
+          <h2>Avaliações Neuropsicológicas</h2>
           <div class="section__tools">
             <button class="chip" type="button" data-copy-section="#neuro">Copiar link</button>
-            <a class="chip" href="#inicio" data-nav>Topo</a>
-          </div>
-        </header>
-        <div class="grid">
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Neuro</span>
-              <span class="tag">Avaliação</span>
-              <time datetime="2025-10-22" class="time">22 out 2025</time>
-            </div>
-            <h3>Testes e Pessoas: além das métricas</h3>
-            <p>
-              Uma crítica ao uso irrefletido de testes psicológicos como retratos fiéis do sujeito. Como interpretar resultados sem reducionismos?
-            </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  Avaliações neuropsicológicas oferecem ferramentas valiosas para compreender padrões de desempenho, mas correm o risco de serem interpretadas como diagnósticos absolutos. É fundamental distinguir entre medida e essência.
-                </p>
-                <p>
-                  Esta reflexão propõe critérios para uma leitura contextualizada, destacando a importância de considerar a história de vida, a cultura e a singularidade de cada pessoa ao analisar resultados de testes.
-                </p>
-              </div>
-            </details>
-          </article>
-          <article class="post">
-            <div class="post__meta">
-              <span class="tag tag--accent">Neuro</span>
-              <span class="tag">Tecnologia</span>
-              <time datetime="2025-09-15" class="time">15 set 2025</time>
-            </div>
-            <h3>Inteligência Artificial na Clínica: potencial e limites</h3>
-            <p>
-              O uso de modelos de IA em avaliações cognitivas: oportunidades, riscos e questões éticas emergentes no campo da neuropsicologia.
-            </p>
-            <details class="details">
-              <summary>Ler mais</summary>
-              <div class="prose">
-                <p>
-                  Sistemas de inteligência artificial prometem agilizar diagnósticos e sugerir intervenções baseadas em grandes volumes de dados. Contudo, seu uso indiscriminado pode reproduzir vieses e negligenciar variáveis humanas essenciais.
-                </p>
-                <p>
-                  Discutimos aqui o equilíbrio entre tecnologia e contato clínico, enfatizando a necessidade de supervisão humana, transparência algorítmica e inclusão de fatores contextuais nas análises assistidas por IA.
-                </p>
-              </div>
-            </details>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sobre -->
-    <section id="sobre" class="section">
-      <div class="wrap">
-        <header class="section__head">
-          <h2>Sobre</h2>
-          <div class="section__tools">
-            <button class="chip" type="button" data-copy-section="#sobre">Copiar link</button>
-            <a class="chip" href="#inicio" data-nav>Topo</a>
+            <a class="chip" href="#apresentacao" data-nav>Topo</a>
           </div>
         </header>
         <div class="panel">
           <div class="prose">
             <p>
-              Este site foi criado para reunir textos de reflexão com uma estética leve e organizada. Nenhuma pasta de artigos é necessária: todas as publicações estão embutidas neste único arquivo. Isso simplifica o versionamento com GitHub e a hospedagem no Render como um Static Site.
+              A neuropsicologia que pratico é <strong>integrada e ética</strong>: investiga o funcionamento cognitivo e emocional sem reduzir o indivíduo a
+              resultados de testes. Avalio crianças (a partir de 6 anos), adolescentes, adultos e idosos em suas especificidades,
+              utilizando instrumentos padronizados e uma entrevista clinica profunda. Depois, interpreto os dados à luz da
+              singularidade de cada pessoa, buscando precisão diagnóstica e orientações terapêuticas realistas.
             </p>
             <p>
-              A proposta editorial é valorizar argumentações precisas sem abrir mão do estilo. Cada seção corresponde a uma área de investigação — filosofia, psicologia e neuropsicologia — oferecendo leituras longas e notas curtas.
+              Alguns instrumentos que utilizo em bateria de avaliação (lista não exaustiva):
+            </p>
+            <details>
+              <summary>Ver lista de instrumentos</summary>
+              <ul>
+                <li><strong>WISC‑IV</strong> – Escala Wechsler de Inteligência para Crianças</li>
+                <li><strong>RAVLT</strong> – Teste de Aprendizagem Auditivo‑Verbal de Rey</li>
+                <li><strong>Torre de Londres</strong> – Planejamento e funções executivas</li>
+                <li><strong>Figuras Complexas de Rey</strong> – Memória visual e organização perceptiva</li>
+                <li><strong>SRS‑2</strong>, <strong>Vineland‑3</strong>, <strong>SNAP‑IV</strong>, <strong>M‑CHAT‑R</strong> – Avaliação de autismo e comportamentos adaptativos</li>
+                <li><strong>Testes de Trilhas A/B</strong>, <strong>FDT/Escala de Atenção</strong>, <strong>TEADI</strong>, entre outros</li>
+              </ul>
+            </details>
+            <p>
+              O relatório final traz um panorama compreensivo das habilidades cognitivas, dos aspectos emocionais e das
+              interferências ambientais, com recomendações individualizadas para tratamento e acompanhamento.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contato -->
+    <!-- Seção Publicações -->
+    <section id="publicacoes" class="section">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Publicações &amp; Produções</h2>
+          <div class="section__tools">
+            <button class="chip" type="button" data-copy-section="#publicacoes">Copiar link</button>
+            <a class="chip" href="#apresentacao" data-nav>Topo</a>
+          </div>
+        </header>
+        <div class="grid">
+          <!-- Autismo, guia essencial -->
+          <article class="post">
+            <div class="post__meta">
+              <span class="tag tag--gold">2024</span>
+              <span class="tag">Guia</span>
+            </div>
+            <h3>Autismo, guia essencial</h3>
+            <p>
+              Livro introdutório destinado a pais, educadores e profissionais da saúde. Apresenta de forma acessível o
+              conceito de espectro autista, sinais precoces, estratégias de intervenção e orientações para um cuidado
+              inclusivo e respeitoso.
+            </p>
+            <details class="details">
+              <summary>Mais detalhes</summary>
+              <div class="prose">
+                <p>
+                  Escrito a partir de minha experiência clínica e de pesquisa, este guia busca desmistificar o autismo e
+                  fornecer informações baseadas em evidências. O objetivo é empoderar famílias e profissionais a lidar
+                  com os desafios cotidianos, promovendo autonomia e qualidade de vida para pessoas autistas.
+                </p>
+              </div>
+            </details>
+          </article>
+          <!-- Ensaio sobre a inautenticidade contemporânea -->
+          <article class="post">
+            <div class="post__meta">
+              <span class="tag tag--gold">2025</span>
+              <span class="tag">Ensaio</span>
+            </div>
+            <h3>Ensaio sobre a inautenticidade contemporânea</h3>
+            <p>
+              Reflexão filosófica sobre a crise de autenticidade no mundo atual. Analisa como discursos, consumo e redes
+              sociais moldam o self e examina as implicações clínicas desse fenômeno.
+            </p>
+            <details class="details">
+              <summary>Mais detalhes</summary>
+              <div class="prose">
+                <p>
+                  Este ensaio articula filosofia e psicologia, aproximando conceitos de Heidegger, Sartre e Nietzsche das
+                  inquietações da clínica. Discutimos o modo como o sujeito contemporâneo se vê coagido a performar
+                  identidades, tornando‑se estranhado de si mesmo. Proponho caminhos para recuperar autenticidade e
+                  liberdade subjetiva.
+                </p>
+              </div>
+            </details>
+          </article>
+          <!-- Filosofia e Psicologia -->
+          <article class="post">
+            <div class="post__meta">
+              <span class="tag tag--gold">2020</span>
+              <span class="tag">TCC</span>
+            </div>
+            <h3>Filosofia &amp; Psicologia: Nietzsche como psicólogo</h3>
+            <p>
+              Trabalho de conclusão de curso (UNESA) que investiga a contribuição de Nietzsche para a psicologia,
+              abordando temas como vontade de potência, decadência e criação de valores.
+            </p>
+            <details class="details">
+              <summary>Mais detalhes</summary>
+              <div class="prose">
+                <p>
+                  O TCC articula a leitura de Oswaldo Giacóia Jr. sobre Nietzsche à clínica existencial. Argumento que
+                  compreender o indivíduo passa por reconhecer suas forças criadoras e seus processos de desvalorização,
+                  oferecendo caminhos terapêuticos para retomar a potência de agir.
+                </p>
+              </div>
+            </details>
+          </article>
+          <!-- Alberto Fourier -->
+          <article class="post">
+            <div class="post__meta">
+              <span class="tag tag--gold">2017</span>
+              <span class="tag">Romance</span>
+            </div>
+            <h3>Alberto Fourier</h3>
+            <p>
+              Romance de inspiração filosófica que acompanha um protagonista em crise existencial. A narrativa convida o
+              leitor a refletir sobre identidade, memória e a busca por sentido.
+            </p>
+            <details class="details">
+              <summary>Mais detalhes</summary>
+              <div class="prose">
+                <p>
+                  O livro explora, em forma literária, temas caros à minha prática: autenticidade, responsabilidade e
+                  criação de novos caminhos. A narrativa é atravessada pela filosofia e pela psicologia, aproximando
+                  mundos que se interpenetram na clínica.
+                </p>
+              </div>
+            </details>
+          </article>
+          <!-- Introdução essencial à filosofia de Nietzsche -->
+          <article class="post">
+            <div class="post__meta">
+              <span class="tag tag--gold">2026</span>
+              <span class="tag">Livro</span>
+            </div>
+            <h3>Introdução essencial à filosofia de Nietzsche</h3>
+            <p>
+              Uma introdução clara e rigorosa ao pensamento de Nietzsche, destacando seus conceitos fundamentais e sua
+              relevância para a psicologia e a crítica cultural contemporânea.
+            </p>
+            <details class="details">
+              <summary>Mais detalhes</summary>
+              <div class="prose">
+                <p>
+                  Organizei este livro para quem deseja entrar no universo nietzschiano. Apresento as ideias de eterno
+                  retorno, vontade de potência, niilismo e crítica da moral, construindo pontes com a prática clínica e
+                  com reflexões sobre a vida moderna.
+                </p>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Currículo -->
+    <section id="curriculo" class="section">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Currículo &amp; Formação</h2>
+          <div class="section__tools">
+            <button class="chip" type="button" data-copy-section="#curriculo">Copiar link</button>
+            <a class="chip" href="#apresentacao" data-nav>Topo</a>
+          </div>
+        </header>
+        <div class="grid curriculum">
+          <article class="card">
+            <h3>Formação Acadêmica</h3>
+            <ul>
+              <li><strong>Psicologia (Bacharelado)</strong> – Universidade Estácio de Sá (UNESA), 2012‑2020. TCC: <em>Filosofia &amp; Psicologia: Nietzsche como psicólogo</em>.</li>
+              <li><strong>Especialização em Neuropsicologia</strong> – FAMESP (Faculdades Metropolitanas de São Paulo), 2020‑2022. Monografia: <em>Neuropsicologia das emoções</em>.</li>
+              <li><strong>Especialização em ABA – Análise do Comportamento Aplicada</strong> – Faculdade do Leste Mineiro (Faculeste), 2025 (800h). Em andamento.</li>
+              <li><strong>Especialização em Terapia de Casais &amp; Família</strong> – Instituto FEBEAD, 2025 (720h). Em andamento.</li>
+              <li><strong>Experiência de Aprendizagem Mediada de Feuerstein</strong> – Centro de Desenvolvimento Cognitivo do Paraná, 2023 (40h).</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Experiência Profissional</h3>
+            <ul>
+              <li><strong>Espaço do Aprender e Brincar</strong> (desde 2023) – Psicólogo clínico e neuropsicólogo. Atendimento a crianças, adolescentes e adultos; avaliações neuropsicológicas; escuta sensível e diálogo com família.</li>
+              <li><strong>Clínica da Audição</strong> (desde 2023) – Neuropsicólogo bolsista. Avaliações completas de adultos, crianças e idosos; elaboração de relatórios rigorosos e personalizados.</li>
+              <li><strong>Centro Universitário Fluminense (UNIFLU)</strong> (desde 2018) – Pesquisador voluntário vinculado ao grupo GPIDMR UENF/UNIFLU, com foco em saúde mental e neurodesenvolvimento.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Objetivo Profissional</h3>
+            <p>
+              Atuar como psicólogo clínico e neuropsicólogo com foco em <strong>promover saúde mental, autonomia e dignidade</strong>. Conduzir avaliações
+              neuropsicológicas completas, integrando dados objetivos a narrativas subjetivas para alcançar diagnósticos
+              precisos e recomendações terapêuticas realistas. Oferecer um espaço seguro de reflexão, autoconhecimento e
+              transformação.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
     <section id="contato" class="section">
       <div class="wrap">
         <header class="section__head">
           <h2>Contato</h2>
           <div class="section__tools">
             <button class="chip" type="button" data-copy-section="#contato">Copiar link</button>
-            <a class="chip" href="#inicio" data-nav>Topo</a>
+            <a class="chip" href="#apresentacao" data-nav>Topo</a>
           </div>
         </header>
         <div class="panel">
+          <p>
+            Você pode me contactar diretamente pelo e‑mail ou pelo telefone/WhatsApp. Preencha o formulário a seguir
+            para enviar uma mensagem. Os dados não serão armazenados; este formulário é uma demonstração e você pode
+            integrá‑lo facilmente a um serviço de formulários como <em>Formspree</em> ou <em>Netlify Forms</em>.
+          </p>
+          <div class="contact-info">
+            <p><strong>Nome:</strong> Thiago Carvalho de Souza</p>
+            <p><strong>CRP:</strong> 05/63586</p>
+            <p><strong>E‑mail:</strong> <a href="mailto:psi.tg.carvalho@gmail.com">psi.tg.carvalho@gmail.com</a></p>
+            <p><strong>Cel.:</strong> <a href="tel:+5522999239467">(22) 99923‑9467</a></p>
+          </div>
           <form class="form" id="contactForm">
             <div class="form__row">
               <label>
@@ -290,7 +343,7 @@
                 <input class="input" name="name" autocomplete="name" placeholder="Seu nome" required />
               </label>
               <label>
-                <span>E-mail</span>
+                <span>E‑mail</span>
                 <input class="input" name="email" type="email" autocomplete="email" placeholder="seuemail@exemplo.com" required />
               </label>
             </div>
@@ -300,23 +353,25 @@
             </label>
             <div class="form__actions">
               <button class="btn btn--primary" type="submit">Enviar</button>
-              <p class="hint">Este formulário é apenas demonstrativo. Para integrar com um serviço real, basta alterar <code>script.js</code>.</p>
+              <p class="hint">O formulário está em modo demonstração. Ajuste o script para integrar com um serviço externo se desejar.</p>
             </div>
           </form>
         </div>
       </div>
     </section>
+
+    <!-- Botão flutuante para voltar ao topo -->
     <button class="toTop" type="button" aria-label="Voltar ao topo" data-top>↑</button>
   </main>
 
   <footer class="footer">
     <div class="wrap footer__inner">
       <div>
-        <strong>Caderno de Ideias</strong>
-        <span class="muted">· Filosofia, Psicologia e Neuropsicologia</span>
+        <strong>Thiago C. de Souza</strong>
+        <span class="muted">· Psicologia &amp; Neuropsicologia</span>
       </div>
       <div class="muted">
-        © <span data-year></span> · Conteúdo em pt-BR · Elegância e síntese
+        © <span data-year></span> · Site estático sem pastas, hospedável no GitHub/Render
       </div>
     </div>
   </footer>
